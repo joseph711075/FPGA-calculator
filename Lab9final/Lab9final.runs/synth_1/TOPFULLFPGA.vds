@@ -1,0 +1,855 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Sat Dec  9 09:46:12 2017
+# Process ID: 20944
+# Current directory: C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.runs/synth_1
+# Command line: vivado.exe -log TOPFULLFPGA.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TOPFULLFPGA.tcl
+# Log file: C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.runs/synth_1/TOPFULLFPGA.vds
+# Journal file: C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source TOPFULLFPGA.tcl -notrace
+Command: synth_design -top TOPFULLFPGA -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t-csg324'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t-csg324'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 14676 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 308.133 ; gain = 84.098
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'TOPFULLFPGA' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/TOPFULLFPGA.v:1]
+INFO: [Synth 8-638] synthesizing module 'clk_gen' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/clk_gen.v:1]
+INFO: [Synth 8-256] done synthesizing module 'clk_gen' (1#1) [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/clk_gen.v:1]
+INFO: [Synth 8-638] synthesizing module 'button_debouncer' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/debounce2.v:1]
+	Parameter depth bound to: 16 - type: integer 
+	Parameter history_max bound to: 65535 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'button_debouncer' (2#1) [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/debounce2.v:1]
+INFO: [Synth 8-638] synthesizing module 'TOPFULL' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/TOPFULL.v:2]
+INFO: [Synth 8-638] synthesizing module 'DP_FULL' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/DP_FULL.v:1]
+INFO: [Synth 8-638] synthesizing module 'Dregister' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/Dregister.v:3]
+	Parameter width bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Dregister' (3#1) [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/Dregister.v:3]
+INFO: [Synth 8-638] synthesizing module 'Dregister__parameterized0' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/Dregister.v:3]
+	Parameter width bound to: 3 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Dregister__parameterized0' (3#1) [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/Dregister.v:3]
+INFO: [Synth 8-638] synthesizing module 'MUX2ALU' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/MUX2ALU.v:1]
+	Parameter width bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'MUX2ALU' (4#1) [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/MUX2ALU.v:1]
+INFO: [Synth 8-638] synthesizing module 'topALU' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/topALU.v:2]
+INFO: [Synth 8-638] synthesizing module 'CUALU' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/CUALU.v:1]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/CUALU.v:13]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/CUALU.v:37]
+INFO: [Synth 8-256] done synthesizing module 'CUALU' (5#1) [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/CUALU.v:1]
+INFO: [Synth 8-638] synthesizing module 'DPALU' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/DPALU.v:1]
+INFO: [Synth 8-638] synthesizing module 'MUX1' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/MUX1ALU.v:1]
+INFO: [Synth 8-256] done synthesizing module 'MUX1' (6#1) [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/MUX1ALU.v:1]
+INFO: [Synth 8-638] synthesizing module 'RX' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/RFALU.v:1]
+INFO: [Synth 8-256] done synthesizing module 'RX' (7#1) [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/RFALU.v:1]
+INFO: [Synth 8-638] synthesizing module 'ALU' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/ALU.v:1]
+INFO: [Synth 8-256] done synthesizing module 'ALU' (8#1) [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/ALU.v:1]
+INFO: [Synth 8-256] done synthesizing module 'DPALU' (9#1) [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/DPALU.v:1]
+INFO: [Synth 8-256] done synthesizing module 'topALU' (10#1) [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/topALU.v:2]
+WARNING: [Synth 8-689] width (1) of port connection 'cs' does not match port width (4) of module 'topALU' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/DP_FULL.v:21]
+INFO: [Synth 8-638] synthesizing module 'TOP_DIVIDER' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/TOP_DIVIDER.v:2]
+INFO: [Synth 8-638] synthesizing module 'CU' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/CU.v:1]
+	Parameter S0 bound to: 0 - type: integer 
+	Parameter S1 bound to: 1 - type: integer 
+	Parameter S2 bound to: 2 - type: integer 
+	Parameter S3 bound to: 3 - type: integer 
+	Parameter S4 bound to: 4 - type: integer 
+	Parameter S5 bound to: 5 - type: integer 
+	Parameter S6 bound to: 6 - type: integer 
+	Parameter S7 bound to: 7 - type: integer 
+	Parameter error bound to: 15'b100100000000000 
+	Parameter IDLE bound to: 15'b000100000000000 
+	Parameter s1 bound to: 15'b001000100001001 
+	Parameter s2 bound to: 15'b000001000000000 
+	Parameter s3plus bound to: 15'b000000101000001 
+	Parameter s3 bound to: 15'b000000000000001 
+	Parameter s4 bound to: 15'b000011000000000 
+	Parameter s5 bound to: 15'b000001000000000 
+	Parameter s6 bound to: 15'b000000010000000 
+	Parameter s7 bound to: 15'b010000000100000 
+INFO: [Synth 8-226] default block is never used [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/CU.v:30]
+INFO: [Synth 8-256] done synthesizing module 'CU' (11#1) [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/CU.v:1]
+INFO: [Synth 8-638] synthesizing module 'DP' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/lab8/DP.v:1]
+INFO: [Synth 8-638] synthesizing module 'mux2' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/lab8/mux2.v:1]
+	Parameter WIDTH bound to: 5 - type: integer 
+WARNING: [Synth 8-567] referenced signal 'sel' should be on the sensitivity list [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/lab8/mux2.v:6]
+INFO: [Synth 8-256] done synthesizing module 'mux2' (12#1) [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/lab8/mux2.v:1]
+WARNING: [Synth 8-689] width (4) of port connection 'sel' does not match port width (1) of module 'mux2' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/lab8/DP.v:14]
+INFO: [Synth 8-638] synthesizing module 'shifter_register' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/lab8/shifter_register.v:1]
+	Parameter WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'shifter_register' (13#1) [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/lab8/shifter_register.v:1]
+WARNING: [Synth 8-689] width (4) of port connection 'LD' does not match port width (1) of module 'shifter_register' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/lab8/DP.v:16]
+WARNING: [Synth 8-689] width (4) of port connection 'SL' does not match port width (1) of module 'shifter_register' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/lab8/DP.v:16]
+WARNING: [Synth 8-689] width (4) of port connection 'SR' does not match port width (1) of module 'shifter_register' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/lab8/DP.v:16]
+WARNING: [Synth 8-689] width (4) of port connection 'RST' does not match port width (1) of module 'shifter_register' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/lab8/DP.v:16]
+WARNING: [Synth 8-689] width (4) of port connection 'CLK' does not match port width (1) of module 'shifter_register' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/lab8/DP.v:16]
+INFO: [Synth 8-638] synthesizing module 'shifter_register__parameterized0' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/lab8/shifter_register.v:1]
+	Parameter WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'shifter_register__parameterized0' (13#1) [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/lab8/shifter_register.v:1]
+WARNING: [Synth 8-689] width (4) of port connection 'rightIn' does not match port width (1) of module 'shifter_register__parameterized0' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/lab8/DP.v:17]
+WARNING: [Synth 8-689] width (4) of port connection 'LD' does not match port width (1) of module 'shifter_register__parameterized0' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/lab8/DP.v:17]
+WARNING: [Synth 8-689] width (4) of port connection 'SL' does not match port width (1) of module 'shifter_register__parameterized0' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/lab8/DP.v:17]
+WARNING: [Synth 8-689] width (4) of port connection 'RST' does not match port width (1) of module 'shifter_register__parameterized0' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/lab8/DP.v:17]
+WARNING: [Synth 8-689] width (4) of port connection 'CLK' does not match port width (1) of module 'shifter_register__parameterized0' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/lab8/DP.v:17]
+WARNING: [Synth 8-689] width (4) of port connection 'LD' does not match port width (1) of module 'shifter_register__parameterized0' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/lab8/DP.v:18]
+WARNING: [Synth 8-689] width (4) of port connection 'RST' does not match port width (1) of module 'shifter_register__parameterized0' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/lab8/DP.v:18]
+WARNING: [Synth 8-689] width (4) of port connection 'CLK' does not match port width (1) of module 'shifter_register__parameterized0' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/lab8/DP.v:18]
+INFO: [Synth 8-638] synthesizing module 'lt_comparator' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/lab8/lt_comparator.v:1]
+	Parameter WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lt_comparator' (14#1) [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/lab8/lt_comparator.v:1]
+INFO: [Synth 8-638] synthesizing module 'subtractor' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/lab8/substractor.v:1]
+	Parameter WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'subtractor' (15#1) [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/lab8/substractor.v:1]
+WARNING: [Synth 8-689] width (4) of port connection 'sel' does not match port width (1) of module 'mux2' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/lab8/DP.v:23]
+INFO: [Synth 8-638] synthesizing module 'mux2__parameterized0' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/lab8/mux2.v:1]
+	Parameter WIDTH bound to: 4 - type: integer 
+WARNING: [Synth 8-567] referenced signal 'sel' should be on the sensitivity list [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/lab8/mux2.v:6]
+INFO: [Synth 8-256] done synthesizing module 'mux2__parameterized0' (15#1) [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/lab8/mux2.v:1]
+WARNING: [Synth 8-689] width (4) of port connection 'sel' does not match port width (1) of module 'mux2__parameterized0' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/lab8/DP.v:24]
+INFO: [Synth 8-638] synthesizing module 'ud_counter' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/lab8/ud_counter.v:1]
+INFO: [Synth 8-256] done synthesizing module 'ud_counter' (16#1) [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/lab8/ud_counter.v:1]
+WARNING: [Synth 8-689] width (4) of port connection 'LD' does not match port width (1) of module 'ud_counter' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/lab8/DP.v:26]
+WARNING: [Synth 8-689] width (4) of port connection 'CE' does not match port width (1) of module 'ud_counter' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/lab8/DP.v:26]
+WARNING: [Synth 8-689] width (4) of port connection 'RST' does not match port width (1) of module 'ud_counter' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/lab8/DP.v:26]
+WARNING: [Synth 8-689] width (4) of port connection 'CLK' does not match port width (1) of module 'ud_counter' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/lab8/DP.v:26]
+INFO: [Synth 8-256] done synthesizing module 'DP' (17#1) [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/lab8/DP.v:1]
+WARNING: [Synth 8-689] width (1) of port connection 'clk' does not match port width (4) of module 'DP' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/TOP_DIVIDER.v:11]
+WARNING: [Synth 8-689] width (1) of port connection 'LD' does not match port width (4) of module 'DP' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/TOP_DIVIDER.v:11]
+WARNING: [Synth 8-689] width (1) of port connection 'RST' does not match port width (4) of module 'DP' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/TOP_DIVIDER.v:11]
+WARNING: [Synth 8-689] width (1) of port connection 'RightInx' does not match port width (4) of module 'DP' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/TOP_DIVIDER.v:11]
+WARNING: [Synth 8-689] width (1) of port connection 'SL' does not match port width (4) of module 'DP' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/TOP_DIVIDER.v:11]
+WARNING: [Synth 8-689] width (1) of port connection 'LDR' does not match port width (4) of module 'DP' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/TOP_DIVIDER.v:11]
+WARNING: [Synth 8-689] width (1) of port connection 'SRR' does not match port width (4) of module 'DP' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/TOP_DIVIDER.v:11]
+WARNING: [Synth 8-689] width (1) of port connection 's1' does not match port width (4) of module 'DP' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/TOP_DIVIDER.v:11]
+WARNING: [Synth 8-689] width (1) of port connection 's2' does not match port width (4) of module 'DP' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/TOP_DIVIDER.v:11]
+WARNING: [Synth 8-689] width (1) of port connection 'CTE' does not match port width (4) of module 'DP' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/TOP_DIVIDER.v:11]
+INFO: [Synth 8-256] done synthesizing module 'TOP_DIVIDER' (18#1) [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/TOP_DIVIDER.v:2]
+WARNING: [Synth 8-689] width (1) of port connection 'CSOUT' does not match port width (4) of module 'TOP_DIVIDER' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/DP_FULL.v:23]
+WARNING: [Synth 8-689] width (4) of port connection 'R' does not match port width (5) of module 'TOP_DIVIDER' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/DP_FULL.v:23]
+INFO: [Synth 8-638] synthesizing module 'multiplier_top' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/multiplier_top.v:2]
+INFO: [Synth 8-638] synthesizing module 'ppcalculator' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/ppcalculator.v:2]
+INFO: [Synth 8-256] done synthesizing module 'ppcalculator' (19#1) [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/ppcalculator.v:2]
+INFO: [Synth 8-638] synthesizing module 'shifter1' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/shifter1.v:3]
+INFO: [Synth 8-256] done synthesizing module 'shifter1' (20#1) [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/shifter1.v:3]
+INFO: [Synth 8-638] synthesizing module 'shifter2' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/shifter2.v:2]
+INFO: [Synth 8-256] done synthesizing module 'shifter2' (21#1) [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/shifter2.v:2]
+WARNING: [Synth 8-689] width (4) of port connection 'pp1' does not match port width (8) of module 'shifter2' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/multiplier_top.v:29]
+INFO: [Synth 8-638] synthesizing module 'shifter3' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/shifter3.v:2]
+INFO: [Synth 8-256] done synthesizing module 'shifter3' (22#1) [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/shifter3.v:2]
+WARNING: [Synth 8-689] width (4) of port connection 'pp1' does not match port width (8) of module 'shifter3' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/multiplier_top.v:30]
+INFO: [Synth 8-638] synthesizing module 'eightbitsadder' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/eightbitsadder.v:2]
+INFO: [Synth 8-638] synthesizing module 'fpga' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/fpga.v:1]
+INFO: [Synth 8-638] synthesizing module 'HA_topmodule' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/HA_topmodule.v:1]
+INFO: [Synth 8-638] synthesizing module 'HA' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/HA.v:1]
+INFO: [Synth 8-256] done synthesizing module 'HA' (23#1) [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/HA.v:1]
+INFO: [Synth 8-256] done synthesizing module 'HA_topmodule' (24#1) [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/HA_topmodule.v:1]
+INFO: [Synth 8-638] synthesizing module 'CLA_generator' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/CLA_generator.v:1]
+INFO: [Synth 8-256] done synthesizing module 'CLA_generator' (25#1) [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/CLA_generator.v:1]
+INFO: [Synth 8-638] synthesizing module 'X_OR' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/X_OR.v:1]
+INFO: [Synth 8-256] done synthesizing module 'X_OR' (26#1) [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/X_OR.v:1]
+INFO: [Synth 8-256] done synthesizing module 'fpga' (27#1) [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/fpga.v:1]
+INFO: [Synth 8-256] done synthesizing module 'eightbitsadder' (28#1) [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/eightbitsadder.v:2]
+INFO: [Synth 8-638] synthesizing module 'Dregister__parameterized1' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/Dregister.v:3]
+	Parameter width bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Dregister__parameterized1' (28#1) [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/Dregister.v:3]
+WARNING: [Synth 8-324] index 3 out of range [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/multiplier_top.v:39]
+INFO: [Synth 8-256] done synthesizing module 'multiplier_top' (29#1) [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/multiplier_top.v:2]
+INFO: [Synth 8-638] synthesizing module 'MUX4' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/MUX4.v:3]
+INFO: [Synth 8-256] done synthesizing module 'MUX4' (30#1) [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/MUX4.v:3]
+INFO: [Synth 8-256] done synthesizing module 'DP_FULL' (31#1) [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/DP_FULL.v:1]
+INFO: [Synth 8-638] synthesizing module 'CU_FULL' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/CU_FULL.v:1]
+	Parameter S0 bound to: 0 - type: integer 
+	Parameter S1 bound to: 1 - type: integer 
+	Parameter S2 bound to: 2 - type: integer 
+	Parameter S3 bound to: 3 - type: integer 
+	Parameter S4 bound to: 4 - type: integer 
+	Parameter S5 bound to: 5 - type: integer 
+	Parameter S6 bound to: 6 - type: integer 
+	Parameter S7 bound to: 7 - type: integer 
+	Parameter S8 bound to: 8 - type: integer 
+	Parameter S9 bound to: 9 - type: integer 
+	Parameter S10 bound to: 10 - type: integer 
+	Parameter IDLE bound to: 16'b0000000000000010 
+	Parameter s1 bound to: 16'b0000011100000000 
+	Parameter s2 bound to: 16'b0000000000000000 
+	Parameter s2square bound to: 16'b0000000000010000 
+	Parameter s3 bound to: 16'b1100000010000000 
+	Parameter s4 bound to: 16'b0000000000000000 
+	Parameter s41 bound to: 16'b0000000000000000 
+	Parameter s5 bound to: 16'b0000000001000000 
+	Parameter s7 bound to: 16'b0000000000000000 
+	Parameter DIVOUT bound to: 16'b0011000000001100 
+	Parameter s6add bound to: 16'b1100000000000000 
+	Parameter s6subtract bound to: 16'b1000000000000000 
+	Parameter s6incre bound to: 16'b1100100000000000 
+	Parameter s6decre bound to: 16'b1000100000000000 
+	Parameter s8 bound to: 16'b0010000000101100 
+	Parameter s9 bound to: 16'b0000000000000001 
+	Parameter CALOUT bound to: 16'b0001000000000100 
+INFO: [Synth 8-256] done synthesizing module 'CU_FULL' (32#1) [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/CU_FULL.v:1]
+INFO: [Synth 8-256] done synthesizing module 'TOPFULL' (33#1) [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/TOPFULL.v:2]
+INFO: [Synth 8-638] synthesizing module 'LED7segment' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/LED7segment.v:1]
+INFO: [Synth 8-256] done synthesizing module 'LED7segment' (34#1) [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/LED7segment.v:1]
+INFO: [Synth 8-638] synthesizing module 'led_mux' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/led_mux.v:1]
+INFO: [Synth 8-226] default block is never used [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/led_mux.v:13]
+INFO: [Synth 8-256] done synthesizing module 'led_mux' (35#1) [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/led_mux.v:1]
+INFO: [Synth 8-256] done synthesizing module 'TOPFULLFPGA' (36#1) [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/TOPFULLFPGA.v:1]
+WARNING: [Synth 8-3331] design shifter3 has unconnected port pp1[7]
+WARNING: [Synth 8-3331] design shifter3 has unconnected port pp1[6]
+WARNING: [Synth 8-3331] design shifter3 has unconnected port pp1[5]
+WARNING: [Synth 8-3331] design shifter3 has unconnected port pp1[4]
+WARNING: [Synth 8-3331] design shifter2 has unconnected port pp1[7]
+WARNING: [Synth 8-3331] design shifter2 has unconnected port pp1[6]
+WARNING: [Synth 8-3331] design shifter2 has unconnected port pp1[5]
+WARNING: [Synth 8-3331] design shifter2 has unconnected port pp1[4]
+WARNING: [Synth 8-3331] design DP has unconnected port clk[3]
+WARNING: [Synth 8-3331] design DP has unconnected port clk[2]
+WARNING: [Synth 8-3331] design DP has unconnected port clk[1]
+WARNING: [Synth 8-3331] design DP has unconnected port LD[3]
+WARNING: [Synth 8-3331] design DP has unconnected port LD[2]
+WARNING: [Synth 8-3331] design DP has unconnected port LD[1]
+WARNING: [Synth 8-3331] design DP has unconnected port RST[3]
+WARNING: [Synth 8-3331] design DP has unconnected port RST[2]
+WARNING: [Synth 8-3331] design DP has unconnected port RST[1]
+WARNING: [Synth 8-3331] design DP has unconnected port RightInx[3]
+WARNING: [Synth 8-3331] design DP has unconnected port RightInx[2]
+WARNING: [Synth 8-3331] design DP has unconnected port RightInx[1]
+WARNING: [Synth 8-3331] design DP has unconnected port SL[3]
+WARNING: [Synth 8-3331] design DP has unconnected port SL[2]
+WARNING: [Synth 8-3331] design DP has unconnected port SL[1]
+WARNING: [Synth 8-3331] design DP has unconnected port LDR[3]
+WARNING: [Synth 8-3331] design DP has unconnected port LDR[2]
+WARNING: [Synth 8-3331] design DP has unconnected port LDR[1]
+WARNING: [Synth 8-3331] design DP has unconnected port SRR[3]
+WARNING: [Synth 8-3331] design DP has unconnected port SRR[2]
+WARNING: [Synth 8-3331] design DP has unconnected port SRR[1]
+WARNING: [Synth 8-3331] design DP has unconnected port s1[3]
+WARNING: [Synth 8-3331] design DP has unconnected port s1[2]
+WARNING: [Synth 8-3331] design DP has unconnected port s1[1]
+WARNING: [Synth 8-3331] design DP has unconnected port s2[3]
+WARNING: [Synth 8-3331] design DP has unconnected port s2[2]
+WARNING: [Synth 8-3331] design DP has unconnected port s2[1]
+WARNING: [Synth 8-3331] design DP has unconnected port CTE[3]
+WARNING: [Synth 8-3331] design DP has unconnected port CTE[2]
+WARNING: [Synth 8-3331] design DP has unconnected port CTE[1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 357.859 ; gain = 133.824
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 357.859 ; gain = 133.824
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/constrs_1/new/FULL.xdc]
+invalid command name "debounced_button"
+Finished Parsing XDC File [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/constrs_1/new/FULL.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/constrs_1/new/FULL.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/TOPFULLFPGA_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/TOPFULLFPGA_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 692.363 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 692.363 ; gain = 468.328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 692.363 ; gain = 468.328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 692.363 ; gain = 468.328
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "count1" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clk_4sec" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "count2" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clk_5KHz" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "debounced_button0" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element done_reg was removed.  [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/CUALU.v:48]
+INFO: [Synth 8-802] inferred FSM for state register 'cs_reg' in module 'CUALU'
+WARNING: [Synth 8-6014] Unused sequential element cs_reg was removed.  [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/CUALU.v:33]
+INFO: [Synth 8-5544] ROM "sel1" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ns" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/ALU.v:9]
+INFO: [Synth 8-802] inferred FSM for state register 'CS_reg' in module 'CU'
+WARNING: [Synth 8-6014] Unused sequential element NS_reg was removed.  [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/CU.v:36]
+WARNING: [Synth 8-6014] Unused sequential element CS_reg was removed.  [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/CU.v:103]
+INFO: [Synth 8-5544] ROM "NS" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "NS0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "NS0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "NS" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/lab8/ud_counter.v:9]
+WARNING: [Synth 8-6014] Unused sequential element Q_reg was removed.  [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/lab8/ud_counter.v:6]
+INFO: [Synth 8-5544] ROM "cnt_out" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "dividezero" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'CS_reg' in module 'CU_FULL'
+WARNING: [Synth 8-6014] Unused sequential element NS_reg was removed.  [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/CU_FULL.v:50]
+WARNING: [Synth 8-6014] Unused sequential element CS_reg was removed.  [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/CU_FULL.v:245]
+INFO: [Synth 8-5544] ROM "NS" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "NS" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "NS" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "NS" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element cs_reg was removed.  [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/CUALU.v:33]
+WARNING: [Synth 8-6014] Unused sequential element cs_reg was removed.  [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/CUALU.v:33]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE7 |                             0000 |                             0000
+*
+                  iSTATE |                             0001 |                             0001
+                 iSTATE0 |                             0010 |                             0010
+                 iSTATE1 |                             0011 |                             0011
+                 iSTATE5 |                             0100 |                             0111
+                 iSTATE4 |                             0101 |                             0110
+                 iSTATE3 |                             0110 |                             0101
+                 iSTATE2 |                             0111 |                             0100
+                 iSTATE6 |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'cs_reg' using encoding 'sequential' in module 'CUALU'
+WARNING: [Synth 8-6014] Unused sequential element cs_reg was removed.  [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/CUALU.v:33]
+WARNING: [Synth 8-327] inferring latch for variable 'sel1_reg' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/CUALU.v:39]
+WARNING: [Synth 8-327] inferring latch for variable 'wa_reg' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/CUALU.v:40]
+WARNING: [Synth 8-327] inferring latch for variable 'raa_reg' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/CUALU.v:42]
+WARNING: [Synth 8-327] inferring latch for variable 'rab_reg' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/CUALU.v:44]
+WARNING: [Synth 8-327] inferring latch for variable 'c_reg' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/CUALU.v:46]
+WARNING: [Synth 8-327] inferring latch for variable 'we_reg' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/CUALU.v:41]
+WARNING: [Synth 8-327] inferring latch for variable 'rea_reg' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/CUALU.v:43]
+WARNING: [Synth 8-327] inferring latch for variable 'reb_reg' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/CUALU.v:45]
+WARNING: [Synth 8-327] inferring latch for variable 'sel2_reg' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/CUALU.v:47]
+WARNING: [Synth 8-6014] Unused sequential element CS_reg was removed.  [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/CU.v:103]
+WARNING: [Synth 8-327] inferring latch for variable 'NS_reg' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/CU.v:36]
+WARNING: [Synth 8-6014] Unused sequential element CS_reg was removed.  [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/CU.v:103]
+WARNING: [Synth 8-327] inferring latch for variable 'NS_reg' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/CU.v:36]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                      S0 |                              000 |                              000
+                      S1 |                              001 |                              001
+                      S2 |                              010 |                              010
+                      S3 |                              011 |                              011
+                      S5 |                              100 |                              101
+                      S4 |                              101 |                              100
+                      S6 |                              110 |                              110
+                      S7 |                              111 |                              111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'CS_reg' using encoding 'sequential' in module 'CU'
+WARNING: [Synth 8-6014] Unused sequential element NS_reg was removed.  [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/CU.v:36]
+WARNING: [Synth 8-6014] Unused sequential element CS_reg was removed.  [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/CU.v:103]
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_sequential_NS_reg' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/CU.v:36]
+WARNING: [Synth 8-327] inferring latch for variable 'ctrl_reg' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/CU.v:37]
+WARNING: [Synth 8-327] inferring latch for variable 'out_reg' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/MUX4.v:13]
+WARNING: [Synth 8-6014] Unused sequential element CS_reg was removed.  [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/CU_FULL.v:245]
+WARNING: [Synth 8-327] inferring latch for variable 'NS_reg' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/CU_FULL.v:50]
+WARNING: [Synth 8-6014] Unused sequential element CS_reg was removed.  [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/CU_FULL.v:245]
+WARNING: [Synth 8-327] inferring latch for variable 'NS_reg' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/CU_FULL.v:50]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                      S0 |                             0000 |                             0000
+                      S1 |                             0001 |                             0001
+                      S2 |                             0010 |                             0010
+                      S3 |                             0011 |                             0011
+                      S6 |                             0100 |                             0110
+                      S4 |                             0101 |                             0100
+                     S10 |                             0110 |                             1010
+                      S8 |                             0111 |                             1000
+                      S5 |                             1000 |                             0101
+                      S7 |                             1001 |                             0111
+                      S9 |                             1010 |                             1001
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'CS_reg' using encoding 'sequential' in module 'CU_FULL'
+WARNING: [Synth 8-6014] Unused sequential element NS_reg was removed.  [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/CU_FULL.v:50]
+WARNING: [Synth 8-6014] Unused sequential element CS_reg was removed.  [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/CU_FULL.v:245]
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_sequential_NS_reg' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/CU_FULL.v:50]
+WARNING: [Synth 8-327] inferring latch for variable 'ctrl_reg' [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/new/CU_FULL.v:46]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 692.363 ; gain = 468.328
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
+	   3 Input      4 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---XORs : 
+	   2 Input      4 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 48    
++---Registers : 
+	               32 Bit    Registers := 2     
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 3     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 9     
+	                3 Bit    Registers := 2     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   5 Input     16 Bit        Muxes := 1     
+	  11 Input     16 Bit        Muxes := 1     
+	   3 Input     15 Bit        Muxes := 1     
+	   8 Input     15 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 4     
+	   8 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 15    
+	   9 Input      4 Bit        Muxes := 1     
+	  13 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 4     
+	  11 Input      4 Bit        Muxes := 1     
+	  23 Input      4 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+	  13 Input      3 Bit        Muxes := 1     
+	  10 Input      2 Bit        Muxes := 5     
+	   2 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 23    
+	  10 Input      1 Bit        Muxes := 4     
+	   8 Input      1 Bit        Muxes := 3     
+	   5 Input      1 Bit        Muxes := 1     
+	  11 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module TOPFULLFPGA 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 1     
+Module clk_gen 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 2     
+Module button_debouncer 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module Dregister 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
+Module Dregister__parameterized0 
+Detailed RTL Component Info : 
++---Registers : 
+	                3 Bit    Registers := 1     
+Module MUX2ALU 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+Module CUALU 
+Detailed RTL Component Info : 
++---Muxes : 
+	   9 Input      4 Bit        Muxes := 1     
+	  13 Input      4 Bit        Muxes := 1     
+	  10 Input      2 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 1     
+	  10 Input      1 Bit        Muxes := 4     
+Module MUX1__mod 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 1     
+Module RX 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 2     
+Module ALU 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      4 Bit       Adders := 1     
++---XORs : 
+	   2 Input      4 Bit         XORs := 1     
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 2     
+Module CU 
+Detailed RTL Component Info : 
++---Muxes : 
+	   3 Input     15 Bit        Muxes := 1     
+	   8 Input     15 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+	  13 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 6     
+	   8 Input      1 Bit        Muxes := 3     
+Module mux2 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+Module shifter_register 
+Detailed RTL Component Info : 
++---Registers : 
+	                5 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 2     
+Module shifter_register__parameterized0 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 2     
+Module subtractor 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      5 Bit       Adders := 1     
+Module mux2__parameterized0 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+Module ud_counter 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+Module DP 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 2     
+Module HA 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module X_OR 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 4     
+Module Dregister__parameterized1 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+Module MUX4 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 1     
+Module CU_FULL 
+Detailed RTL Component Info : 
++---Muxes : 
+	   5 Input     16 Bit        Muxes := 1     
+	  11 Input     16 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 1     
+	   8 Input      5 Bit        Muxes := 1     
+	  11 Input      4 Bit        Muxes := 1     
+	  23 Input      4 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 6     
+	  11 Input      1 Bit        Muxes := 3     
+Module led_mux 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                3 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element CLK/count1_reg was removed.  [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/clk_gen.v:8]
+WARNING: [Synth 8-6014] Unused sequential element CLK/clk_4sec_reg was removed.  [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/new/clk_gen.v:8]
+INFO: [Synth 8-5545] ROM "CLK/count2" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "CLK/clk_5KHz" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "b1/debounced_button0" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element T1/DP1/div/DP1/udc/Q_reg was removed.  [C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.srcs/sources_1/imports/lab8/ud_counter.v:6]
+INFO: [Synth 8-3886] merging instance 'T1/DP1/div/CU1/ctrl_reg[3]' (LD) to 'T1/DP1/div/CU1/ctrl_reg[12]'
+INFO: [Synth 8-3886] merging instance 'T1/DP1/div/CU1/ctrl_reg[4]' (LD) to 'T1/DP1/div/CU1/ctrl_reg[2]'
+INFO: [Synth 8-3886] merging instance 'T1/DP1/div/CU1/ctrl_reg[2]' (LD) to 'T1/DP1/div/CU1/ctrl_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\T1/DP1/div/CU1/ctrl_reg[1] )
+INFO: [Synth 8-3886] merging instance 'T1/cu1/ctrl_reg[9]' (LD) to 'T1/cu1/ctrl_reg[8]'
+INFO: [Synth 8-3886] merging instance 'T1/DP1/alu/cu1/raa_reg[1]' (LD) to 'T1/DP1/alu/cu1/rab_reg[0]'
+INFO: [Synth 8-3886] merging instance 'T1/DP1/alu/cu1/rab_reg[0]' (LD) to 'T1/DP1/alu/cu1/sel2_reg'
+INFO: [Synth 8-3886] merging instance 'T1/cu1/ctrl_reg[8]' (LD) to 'T1/cu1/ctrl_reg[10]'
+INFO: [Synth 8-3886] merging instance 'T1/cu1/ctrl_reg[13]' (LD) to 'T1/cu1/ctrl_reg[3]'
+INFO: [Synth 8-3886] merging instance 'T1/DP1/mult/d4/q_reg[6]' (FD) to 'T1/DP1/mult/d4/q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'T1/DP1/mult/d3/q_reg[1]' (FD) to 'T1/DP1/mult/d4/q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'T1/DP1/mult/d3/q_reg[0]' (FD) to 'T1/DP1/mult/d4/q_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\T1/DP1/mult/d4/q_reg[7] )
+INFO: [Synth 8-3886] merging instance 'T1/DP1/div/CU1/ctrl_reg[5]' (LD) to 'T1/DP1/div/CU1/ctrl_reg[13]'
+WARNING: [Synth 8-3332] Sequential element (T1/DP1/div/CU1/ctrl_reg[1]) is unused and will be removed from module TOPFULLFPGA.
+WARNING: [Synth 8-3332] Sequential element (T1/DP1/MUXL/out_reg[3]) is unused and will be removed from module TOPFULLFPGA.
+WARNING: [Synth 8-3332] Sequential element (T1/DP1/MUXL/out_reg[2]) is unused and will be removed from module TOPFULLFPGA.
+WARNING: [Synth 8-3332] Sequential element (T1/DP1/MUXL/out_reg[1]) is unused and will be removed from module TOPFULLFPGA.
+WARNING: [Synth 8-3332] Sequential element (T1/DP1/MUXL/out_reg[0]) is unused and will be removed from module TOPFULLFPGA.
+WARNING: [Synth 8-3332] Sequential element (T1/DP1/mult/d4/q_reg[7]) is unused and will be removed from module TOPFULLFPGA.
+INFO: [Synth 8-3886] merging instance 'T1/DP1/alu/cu1/raa_reg[0]' (LD) to 'T1/DP1/alu/cu1/rab_reg[1]'
+WARNING: [Synth 8-3332] Sequential element (T1/DP1/div/CU1/FSM_sequential_NS_reg[2]) is unused and will be removed from module TOPFULLFPGA.
+WARNING: [Synth 8-3332] Sequential element (T1/DP1/div/CU1/FSM_sequential_NS_reg[1]) is unused and will be removed from module TOPFULLFPGA.
+WARNING: [Synth 8-3332] Sequential element (T1/DP1/div/CU1/FSM_sequential_NS_reg[0]) is unused and will be removed from module TOPFULLFPGA.
+WARNING: [Synth 8-3332] Sequential element (T1/DP1/div/CU1/ctrl_reg[14]) is unused and will be removed from module TOPFULLFPGA.
+WARNING: [Synth 8-3332] Sequential element (T1/DP1/div/CU1/ctrl_reg[13]) is unused and will be removed from module TOPFULLFPGA.
+WARNING: [Synth 8-3332] Sequential element (T1/DP1/div/CU1/ctrl_reg[12]) is unused and will be removed from module TOPFULLFPGA.
+WARNING: [Synth 8-3332] Sequential element (T1/DP1/div/CU1/ctrl_reg[11]) is unused and will be removed from module TOPFULLFPGA.
+WARNING: [Synth 8-3332] Sequential element (T1/DP1/div/CU1/ctrl_reg[10]) is unused and will be removed from module TOPFULLFPGA.
+WARNING: [Synth 8-3332] Sequential element (T1/DP1/div/CU1/ctrl_reg[9]) is unused and will be removed from module TOPFULLFPGA.
+WARNING: [Synth 8-3332] Sequential element (T1/DP1/div/CU1/ctrl_reg[8]) is unused and will be removed from module TOPFULLFPGA.
+WARNING: [Synth 8-3332] Sequential element (T1/DP1/div/CU1/ctrl_reg[7]) is unused and will be removed from module TOPFULLFPGA.
+WARNING: [Synth 8-3332] Sequential element (T1/DP1/div/CU1/ctrl_reg[6]) is unused and will be removed from module TOPFULLFPGA.
+WARNING: [Synth 8-3332] Sequential element (T1/DP1/div/CU1/ctrl_reg[0]) is unused and will be removed from module TOPFULLFPGA.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 692.363 ; gain = 468.328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------+-------------------------------+-----------+----------------------+--------------+
+|Module Name | RTL Object                    | Inference | Size (Depth x Width) | Primitives   | 
++------------+-------------------------------+-----------+----------------------+--------------+
+|TOPFULLFPGA | T1/DP1/alu/DP1/U1/RegFile_reg | Implied   | 4 x 4                | RAM32M x 2   | 
++------------+-------------------------------+-----------+----------------------+--------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 695.305 ; gain = 471.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 695.676 ; gain = 471.641
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 723.805 ; gain = 499.770
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 723.805 ; gain = 499.770
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 723.805 ; gain = 499.770
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 723.805 ; gain = 499.770
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 723.805 ; gain = 499.770
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 723.805 ; gain = 499.770
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 723.805 ; gain = 499.770
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |    10|
+|3     |LUT1   |    30|
+|4     |LUT2   |    22|
+|5     |LUT3   |    37|
+|6     |LUT4   |    38|
+|7     |LUT5   |    44|
+|8     |LUT6   |    96|
+|9     |MUXF7  |     2|
+|10    |RAM32M |     2|
+|11    |FDCE   |    43|
+|12    |FDRE   |    85|
+|13    |LD     |    28|
+|14    |IBUF   |    15|
+|15    |OBUF   |    17|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------------------+------------------------------------+------+
+|      |Instance             |Module                              |Cells |
++------+---------------------+------------------------------------+------+
+|1     |top                  |                                    |   471|
+|2     |  CLK                |clk_gen                             |    82|
+|3     |  LED                |led_mux                             |    21|
+|4     |  T1                 |TOPFULL                             |   313|
+|5     |    DP1              |DP_FULL                             |   255|
+|6     |      OUT_H          |Dregister                           |    54|
+|7     |      OUT_L          |Dregister_0                         |    23|
+|8     |      alu            |topALU                              |    46|
+|9     |        DP1          |DPALU                               |     2|
+|10    |          U1         |RX                                  |     2|
+|11    |        cu1          |CUALU                               |    44|
+|12    |      df             |Dregister__parameterized0           |     6|
+|13    |      div            |TOP_DIVIDER                         |    65|
+|14    |        CU1          |CU                                  |    37|
+|15    |        DP1          |DP                                  |    28|
+|16    |          sr1        |shifter_register                    |    10|
+|17    |          sr2        |shifter_register__parameterized0    |     4|
+|18    |          sr3        |shifter_register__parameterized0_11 |     8|
+|19    |          udc        |ud_counter                          |     6|
+|20    |      dx             |Dregister_1                         |     8|
+|21    |      dy             |Dregister_2                         |     6|
+|22    |      mult           |multiplier_top                      |    47|
+|23    |        a1           |ppcalculator                        |     1|
+|24    |        a3           |ppcalculator_3                      |     1|
+|25    |        d1           |Dregister_4                         |     6|
+|26    |        d2           |Dregister_5                         |     6|
+|27    |        d3           |Dregister__parameterized1           |    12|
+|28    |        d4           |Dregister__parameterized1_6         |     7|
+|29    |        d5           |Dregister__parameterized1_7         |     8|
+|30    |        e1           |eightbitsadder                      |     4|
+|31    |          f2         |fpga_9                              |     4|
+|32    |            cl_adder |CLA_generator                       |     1|
+|33    |            s        |X_OR_10                             |     3|
+|34    |        e2           |eightbitsadder_8                    |     2|
+|35    |          f1         |fpga                                |     2|
+|36    |            s        |X_OR                                |     2|
+|37    |    cu1              |CU_FULL                             |    58|
+|38    |  b1                 |button_debouncer                    |    20|
++------+---------------------+------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 723.805 ; gain = 499.770
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 58 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 723.805 ; gain = 165.266
+Synthesis Optimization Complete : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 723.805 ; gain = 499.770
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 55 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 30 instances were transformed.
+  LD => LDCE: 28 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 2 instances
+
+138 Infos, 134 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 723.805 ; gain = 507.535
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Joel7/Desktop/125/Lab9final/Lab9final.runs/synth_1/TOPFULLFPGA.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.039 . Memory (MB): peak = 723.805 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sat Dec  9 09:46:52 2017...

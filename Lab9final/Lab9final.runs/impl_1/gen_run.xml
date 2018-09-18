@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1512841571">
+  <File Type="PWROPT-DRC" Name="TOPFULLFPGA_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="TOPFULLFPGA_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="TOPFULLFPGA_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="TOPFULLFPGA_power_routed.rpx"/>
+  <File Type="PA-TCL" Name="TOPFULLFPGA.tcl"/>
+  <File Type="OPT-HWDEF" Name="TOPFULLFPGA.hwdef"/>
+  <File Type="RDI-RDI" Name="TOPFULLFPGA.vdi"/>
+  <File Type="OPT-DCP" Name="TOPFULLFPGA_opt.dcp"/>
+  <File Type="OPT-DRC" Name="TOPFULLFPGA_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="TOPFULLFPGA_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="TOPFULLFPGA_pwropt.dcp"/>
+  <File Type="PWROPT-TIMING" Name="TOPFULLFPGA_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="TOPFULLFPGA_placed.dcp"/>
+  <File Type="PLACE-IO" Name="TOPFULLFPGA_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="TOPFULLFPGA_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="TOPFULLFPGA_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="TOPFULLFPGA_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="TOPFULLFPGA_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="TOPFULLFPGA_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="TOPFULLFPGA_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="TOPFULLFPGA_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="TOPFULLFPGA_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="TOPFULLFPGA_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="TOPFULLFPGA_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="TOPFULLFPGA_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="TOPFULLFPGA_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="TOPFULLFPGA_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="TOPFULLFPGA_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="TOPFULLFPGA_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="TOPFULLFPGA_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="TOPFULLFPGA_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="TOPFULLFPGA.bin"/>
+  <File Type="ROUTE-DRC-RPX" Name="TOPFULLFPGA_drc_routed.rpx"/>
+  <File Type="BG-DRC" Name="TOPFULLFPGA.drc"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="TOPFULLFPGA_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MSK" Name="TOPFULLFPGA.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="TOPFULLFPGA_methodology_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="TOPFULLFPGA.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="TOPFULLFPGA_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="TOPFULLFPGA_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="TOPFULLFPGA_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="TOPFULLFPGA_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="TOPFULLFPGA_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="TOPFULLFPGA_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="TOPFULLFPGA_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="TOPFULLFPGA_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="TOPFULLFPGA_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="TOPFULLFPGA_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="TOPFULLFPGA_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="TOPFULLFPGA_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="TOPFULLFPGA_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="TOPFULLFPGA_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="TOPFULLFPGA_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="TOPFULLFPGA.bit"/>
+  <File Type="BITSTR-RBT" Name="TOPFULLFPGA.rbt"/>
+  <File Type="BITSTR-NKY" Name="TOPFULLFPGA.nky"/>
+  <File Type="BITSTR-BMM" Name="TOPFULLFPGA_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="TOPFULLFPGA.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="TOPFULLFPGA.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/new/ALU.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab7_2/project_1/project_1.srcs/sources_1/new/ALU.v"/>
+        <Attr Name="ImportTime" Val="1509514600"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/CLA_generator.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../viLAB5_21st/LAB5_21st.srcs/sources_1/new/CLA_generator.v"/>
+        <Attr Name="ImportTime" Val="1508228934"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/CU.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab8lasttry/lab8lasttry.srcs/sources_1/new/CU.v"/>
+        <Attr Name="ImportTime" Val="1510828968"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/CUALU.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab7_2/project_1/project_1.srcs/sources_1/new/CUALU.v"/>
+        <Attr Name="ImportTime" Val="1510186353"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/CU_FULL.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab8lasttry/lab8lasttry.srcs/sources_1/new/CU_FULL.v"/>
+        <Attr Name="ImportTime" Val="1511835080"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab8/DP.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../lab8/DP.v"/>
+        <Attr Name="ImportTime" Val="1510788785"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/DPALU.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab7_2/project_1/project_1.srcs/sources_1/new/DPALU.v"/>
+        <Attr Name="ImportTime" Val="1509514600"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/DP_FULL.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab92nd/lab92nd.srcs/sources_1/new/DP_FULL.v"/>
+        <Attr Name="ImportTime" Val="1512356216"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Dregister.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../viLAB5_21st/LAB5_21st.srcs/sources_1/new/Dregister.v"/>
+        <Attr Name="ImportTime" Val="1508228934"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/HA.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../viLAB5_21st/LAB5_21st.srcs/sources_1/new/HA.v"/>
+        <Attr Name="ImportTime" Val="1508228934"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/HA_topmodule.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../viLAB5_21st/LAB5_21st.srcs/sources_1/new/HA_topmodule.v"/>
+        <Attr Name="ImportTime" Val="1508228934"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/LED7segment.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LAB5_21st/LAB5_21st.srcs/sources_1/new/LED7segment.v"/>
+        <Attr Name="ImportTime" Val="1508431094"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/MUX1ALU.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab7_2/project_1/project_1.srcs/sources_1/new/MUX1ALU.v"/>
+        <Attr Name="ImportTime" Val="1509514600"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/MUX2ALU.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab7_2/project_1/project_1.srcs/sources_1/new/MUX2ALU.v"/>
+        <Attr Name="ImportTime" Val="1510689261"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/MUX4.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab92nd/lab92nd.srcs/sources_1/new/MUX4.v"/>
+        <Attr Name="ImportTime" Val="1512328257"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/RFALU.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab7_2/project_1/project_1.srcs/sources_1/new/RFALU.v"/>
+        <Attr Name="ImportTime" Val="1509575393"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/TOPFULL.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab92nd/lab92nd.srcs/sources_1/new/TOPFULL.v"/>
+        <Attr Name="ImportTime" Val="1512494856"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/TOP_DIVIDER.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab8lasttry/lab8lasttry.srcs/sources_1/new/TOP_DIVIDER.v"/>
+        <Attr Name="ImportTime" Val="1510860378"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/X_OR.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../viLAB5_21st/LAB5_21st.srcs/sources_1/new/X_OR.v"/>
+        <Attr Name="ImportTime" Val="1508228934"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/clk_gen.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LAB5_21st/LAB5_21st.srcs/sources_1/new/clk_gen.v"/>
+        <Attr Name="ImportTime" Val="1508431094"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/debounce2.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LAB5_21st/LAB5_21st.srcs/sources_1/new/debounce2.v"/>
+        <Attr Name="ImportTime" Val="1508431094"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/eightbitsadder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../viLAB5_21st/LAB5_21st.srcs/sources_1/new/eightbitsadder.v"/>
+        <Attr Name="ImportTime" Val="1508228934"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/fpga.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../viLAB5_21st/LAB5_21st.srcs/sources_1/new/fpga.v"/>
+        <Attr Name="ImportTime" Val="1508228934"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/led_mux.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LAB5_21st/LAB5_21st.srcs/sources_1/new/led_mux.v"/>
+        <Attr Name="ImportTime" Val="1508431094"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab8/lt_comparator.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../lab8/lt_comparator.v"/>
+        <Attr Name="ImportTime" Val="1510702411"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/multiplier_top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../viLAB5_21st/LAB5_21st.srcs/sources_1/new/multiplier_top.v"/>
+        <Attr Name="ImportTime" Val="1508228934"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab8/mux2.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../lab8/mux2.v"/>
+        <Attr Name="ImportTime" Val="1510726149"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/ppcalculator.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../viLAB5_21st/LAB5_21st.srcs/sources_1/new/ppcalculator.v"/>
+        <Attr Name="ImportTime" Val="1508228934"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/shifter1.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../viLAB5_21st/LAB5_21st.srcs/sources_1/new/shifter1.v"/>
+        <Attr Name="ImportTime" Val="1508228934"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/shifter2.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../viLAB5_21st/LAB5_21st.srcs/sources_1/new/shifter2.v"/>
+        <Attr Name="ImportTime" Val="1508228934"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/shifter3.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../viLAB5_21st/LAB5_21st.srcs/sources_1/new/shifter3.v"/>
+        <Attr Name="ImportTime" Val="1508228934"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab8/shifter_register.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../lab8/shifter_register.v"/>
+        <Attr Name="ImportTime" Val="1510693070"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab8/substractor.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../lab8/substractor.v"/>
+        <Attr Name="ImportTime" Val="1510694117"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/topALU.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab7_2/project_1/project_1.srcs/sources_1/new/topALU.v"/>
+        <Attr Name="ImportTime" Val="1510515507"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab8/ud_counter.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../lab8/ud_counter.v"/>
+        <Attr Name="ImportTime" Val="1510726169"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/TOPFULLFPGA.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab92nd/lab92nd.srcs/sources_1/new/TOPFULLFPGA.v"/>
+        <Attr Name="ImportTime" Val="1512353472"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="TOPFULLFPGA"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/FULL.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab92nd/lab92nd.srcs/constrs_1/new/FULL.xdc"/>
+        <Attr Name="ImportTime" Val="1512353250"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
